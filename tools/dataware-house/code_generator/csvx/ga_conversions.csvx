@@ -1,0 +1,3 @@
+﻿ipg:batchNo,ga:deviceCategory,ga:eventAction,ga:eventLabel,ga:totalEvents,ga:uniqueEvents,ipg:cc,ipg:date,ipg:device,ipg:level0Category,ipg:merchantName,ipg:month,ipg:pageType,ipg:product,ipg:subProduct,ipg:website,ipg:week,ipg:year,ipg:year_month,ipg:year_week
+VARCHAR,VARCHAR,NVARCHAR,NVARCHAR,INT,INT,CHAR,DATE,NVARCHAR,NVARCHAR,NVARCHAR,INT,NVARCHAR,NVARCHAR,NVARCHAR,NVARCHAR,INT,INT,VARCHAR,VARCHAR
+100,50,100,1024,4,4,2,3,50,100,500,4,500,500,500,50,4,4,7,7

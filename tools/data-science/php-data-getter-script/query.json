@@ -1,0 +1,15 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "regexp": {
+            "category.url": {
+              "value": ".+"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

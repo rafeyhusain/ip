@@ -1,0 +1,42 @@
+version: "2"
+services:
+  python:
+    image: "tools/python:dev"
+    build:
+      context: ./python
+      args:
+        - ENV=development
+    container_name: "tools-python"
+    links:
+      - "syslog"
+    volumes:
+      - "../:/tools/"
+      - "../output:/srv/ftp/"
+    environment:
+      - ENV=development
+
+  syslog:
+    image: "tools/syslog-ng:dev"
+    build: "syslog-ng"
+    container_name: "tools-syslog"
+    links:
+      - "redis"
+    ports:
+      - "601:601"
+    volumes:
+      - "./syslog-ng/config/conf.d.development/:/etc/syslog-ng/conf.d/"
+
+  redis:
+    image: "redis:alpine"
+    container_name: "tools-redis"
+    ports:
+      - "6376:6379"
+
+  logstash:
+    image: "tools/logstash:dev"
+    build: "logstash"
+    container_name: "tools-logstash"
+    links:
+      - "redis"
+    volumes:
+      - "./logstash/config/pipeline.development:/usr/share/logstash/pipeline"

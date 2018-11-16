@@ -1,0 +1,14 @@
+*.pyc
+*.csv
+*.xlsx
+*.xml
+*.name
+*.pydevproject
+*.project
+.DS_Store
+.idea/*
+*.log
+tools.iml
+*/input/*.json
+google-analytics/analytics.dat
+/output/

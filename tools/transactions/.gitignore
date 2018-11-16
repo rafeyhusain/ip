@@ -1,0 +1,10 @@
+*.pyc
+*.csv
+*.xlsx
+*.xml
+*.name
+*.pydevproject
+*.project
+.DS_Store
+.idea/*
+*.log

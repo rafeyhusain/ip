@@ -1,0 +1,3 @@
+﻿ipg:batchNo,ga:bounces,ga:deviceCategory,ga:goalCompletionsAll,ga:landingPagePath,ga:newUsers,ga:pageViews,ga:sessionDuration,ga:sessions,ga:users,ipg:cc,ipg:date,ipg:device,ipg:level0Category,ipg:month,ipg:pageType,ipg:product,ipg:subProduct,ipg:website,ipg:week,ipg:year,ipg:year_month,ipg:year_week
+VARCHAR,INT,VARCHAR,INT,NVARCHAR,INT,INT,INT,INT,INT,CHAR,DATE,NVARCHAR,NVARCHAR,INT,NVARCHAR,NVARCHAR,NVARCHAR,NVARCHAR,INT,INT,VARCHAR,VARCHAR
+100,4,50,4,1024,4,4,4,4,4,2,3,50,100,4,300,500,500,50,4,4,7,7

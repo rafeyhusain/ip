@@ -1,0 +1,25 @@
+14.0
+23
+1       SQLCHAR             2       100     ""   1     ipg_batchNo                                                                              SQL_Latin1_General_CP1_CI_AS
+2       SQLINT              1       4       ""   2     ga_bounces                                                                               ""
+3       SQLCHAR             2       50      ""   3     ga_deviceCategory                                                                        SQL_Latin1_General_CP1_CI_AS
+4       SQLINT              1       4       ""   4     ga_goalCompletionsAll                                                                    ""
+5       SQLNCHAR            2       2048    ""   5     ga_landingPagePath                                                                       SQL_Latin1_General_CP1_CI_AS
+6       SQLINT              1       4       ""   6     ga_newUsers                                                                              ""
+7       SQLINT              1       4       ""   7     ga_pageViews                                                                             ""
+8       SQLINT              1       4       ""   8     ga_sessionDuration                                                                       ""
+9       SQLINT              1       4       ""   9     ga_sessions                                                                              ""
+10      SQLINT              1       4       ""   10    ga_users                                                                                 ""
+11      SQLCHAR             2       2       ""   11    ipg_cc                                                                                   SQL_Latin1_General_CP1_CI_AS
+12      SQLDATE             1       3       ""   12    ipg_date                                                                                 ""
+13      SQLNCHAR            2       100     ""   13    ipg_device                                                                               SQL_Latin1_General_CP1_CI_AS
+14      SQLNCHAR            2       200     ""   14    ipg_level0Category                                                                       SQL_Latin1_General_CP1_CI_AS
+15      SQLINT              1       4       ""   15    ipg_month                                                                                ""
+16      SQLNCHAR            2       600     ""   16    ipg_pageType                                                                             SQL_Latin1_General_CP1_CI_AS
+17      SQLNCHAR            2       1000    ""   17    ipg_product                                                                              SQL_Latin1_General_CP1_CI_AS
+18      SQLNCHAR            2       1000    ""   18    ipg_subProduct                                                                           SQL_Latin1_General_CP1_CI_AS
+19      SQLNCHAR            2       100     ""   19    ipg_website                                                                              SQL_Latin1_General_CP1_CI_AS
+20      SQLINT              1       4       ""   20    ipg_week                                                                                 ""
+21      SQLINT              1       4       ""   21    ipg_year                                                                                 ""
+22      SQLINT              1       4       ""   22    ipg_year_month                                                                           ""
+23      SQLINT              1       4       ""   23    ipg_year_week                                                                            ""

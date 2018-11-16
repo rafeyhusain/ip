@@ -1,0 +1,22 @@
+{
+  "camera-photo\/accessories": {
+    "freq": 1364,
+    "taken": 0
+  },
+  "phones-tablets\/accessories": {
+    "freq": 7800,
+    "taken": 0
+  },
+  "computing\/accessories": {
+    "freq": 760,
+    "taken": 0
+  },
+  "baby-gear\/travel": {
+    "freq": 60,
+    "taken": 0
+  },
+  "camera-photo\/accessories\/something-else": {
+    "freq": 13,
+    "taken": 0
+  }
+}
